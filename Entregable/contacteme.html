@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacteme.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <title>Personal</title>
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <section class="sec1">
+                <h1>
+                    <span>C</span>
+                    <span>O</span>
+                    <span>N</span>
+                    <span>T</span>
+                    <span>A</span>
+                    <span>C</span>
+                    <span>T</span>
+                    <span>E</span>
+                    <span>M</span>
+                    <span>E</span>
+                </h1>
+            </section>
+        </div>
+        <form>
+            <div class="col">
+                <font color="white">  
+                <label for="Asunto">Asunto</label>
+                <input type="text" class="form-control" >
+            </div><br>
+            <div class="form-group">
+              
+              <label for="exampleInputEmail1" >Email address</label> 
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div><br>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Descripción</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                </div><br></font>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="landingpage.html">Inicio</a></li>
+            <li><a href="personal.html">Personal</a></li>
+            <li><a href="contacteme.html">Contacto</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle(){
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+    </div> <!--pie_pagina-->
+
+    <div class = "copyri row">
+        <div class="text-left p-3" style="background-color: #40c3ff;">
+            Copyright © 2021 - All Rigths Reserved
+      </div>
+    <!--
+    <footer class="bg-light text-center text-lg-start">
+        <div class="text-left p-3" style="background-color: #40c3ff;">
+        <a class="text-white">Copyright © 2021 - All Rigths Reserved </a>
+        </div>
+  </footer> -->
+</body>
+</html>

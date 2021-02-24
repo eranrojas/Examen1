@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="personal.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <title>Personal</title>
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <section class="sec1">
+                <h1>
+                    <span>S</span>
+                    <span>E</span>
+                    <span>C</span>
+                    <span>C</span>
+                    <span>I</span>
+                    <span>O</span>
+                    <span>N</span>
+                    <span>E</span>
+                    <span>S</span>
+                </h1>
+            </section>
+            <div class="contenedor1"> 
+            <a href="#">Conozcame</a><br>
+            <p>Soy de Desamparados de San José y vivo en Dulce Nombre de Cartago. Laboro brindando soporte técnico en Informática. Me gusta hacer ejercicio, como caminatas en la montaña, natación, futbol. Además me gusta el cine y la jardinería.</p><br>
+            </div>
+            
+            <div class="contenedor2">                
+            <a href="#">Educación</a><br>
+            <p>Título de Técnico Medio en Electrónica y estudios de la carrera de Ingeniería en Informática.</p>
+            </div>
+            
+            <div class="contenedor3">
+            <a href="#">Destresas</a><br>
+            <p>Mente abierta a posibilidades, capacidad de adaptación, trabajo en equipo, creativo.</p>    
+            </div>
+            
+            <div class="contenedor4">   
+            <a href="#">Experiencia</a>
+            <p>Experiencia de 5 años en Reparación de equipo médico de análisis. Experiencia de 7 años en Soporte técnico en informática y redes.</p>
+   
+            </div>    
+        </div>
+
+        <ul class="sci">
+            <li><a href="#"><img src="content/images/microsoft.jpg" alt=""></a></li>
+            <li><a href="#"><img src="content/images/oracle.png" alt=""></a></li>
+        </ul>
+        <ul class="sci1">
+            <li><a href="#"><img src="content/images/c++.jpg" alt=""></a></li>
+            <li><a href="#"><img src="content/images/c.png" alt=""></a></li>
+        </ul>
+        <ul class="sci2">
+            <li><a href="#"><img src="content/images/mcafee.jpg" alt=""></a></li>
+            <li><a href="#"><img src="content/images/office.jpg" alt=""></a></li>
+        </ul>
+
+
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="landingpage.html">Inicio</a></li>
+            <li><a href="personal.html">Personal</a></li>
+            <li><a href="contacteme.html">Contacto</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle(){
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+    </div> <!--pie_pagina-->
+
+    <div class = "copyri row">
+        <div class="text-left p-3" style="background-color: #40c3ff;">
+            Copyright © 2021 - All Rigths Reserved
+      </div>
+    <!--
+    <footer class="bg-light text-center text-lg-start">
+        <div class="text-left p-3" style="background-color: #40c3ff;">
+        <a class="text-white">Copyright © 2021 - All Rigths Reserved </a>
+        </div>
+  </footer> -->
+</body>
+</html>
